@@ -1,54 +1,64 @@
-console.log('Repondas as perguntas a baixo com(S) para sim e N para não');
+// console.log('     Reajuste salarial ');
+// let salario = +prompt("digite o dalario");
+// let percentual1 = 20
+// let percentual2 = 15
+// let percentual3 = 10
+// let percentual4 = 5
+// let pc20 = salario / 100 * 20
+// let pc15 = salario / 100 * 15
+// let pc10 = salario / 100 * 10 
+// let pc5 = salario / 100 * 5 
+// if (salario < 280){ console.log(salario + pc20)}
+// else if (salario > 280) {console.log(salario + pc15)}
+// else if (salario < 700) {console.log(salario + pc15)}
+// else if (salario > 700) {console.log(salario + pc10)}
+// else if (salario < 1500) {console.log(salario + pc10)}
+// else {console.log(salario + pc5)}
+// console.log()
+// console.log()
 
-let contadors = 0;
-let contadorn = 0;
+// let frase = prompt('digite uma frase');
 
-let questao1 = prompt('Telefonou para a vítima? (S/N) ');
-let q1 = questao1.toUpperCase()
-let questao2 = prompt('Esteve no local do crime? (S/N) ');
-let q2 = questao2.toUpperCase()
-let questao3 = prompt('Mora proximo a vitima? (S/N) ');
-let q3 = questao3.toUpperCase()
-let questao4 = prompt('Devia a vitima? (S/N) ')
-let q4 =questao4.toUpperCase()
-let questao5 = prompt('Ja trabalhou com a vitima? (S/N) ')
-let q5 = questao5.toUpperCase()
+//console.log(frase.toLowerCase());
+// let nome = prompt('Digite seu nome:');
+// let endereco = prompt('Digite seu Endereco:');
+// let hobby = prompt('Qual Hobby?');
+// const hobby1 = hobby[0].toUpperCase() + hobby.substr(1);
+// console.log(nome.toUpperCase());
+// console.log(endereco.toLowerCase());
+// console.log(hobby1);
+// console.log()
+// console.log()
+// let numero = +prompt('digite um numero')
+// if (numero / 2 === 0 ) {console.log('o numero digitado e par')}
+// else {console.log('o numero e impar')} 
 
-if( q1 === 'S'){
-  contadors = contadors + 1;
-}
-else{
-  contadorn = contadorn + 1;
-}
-if( q2 === 'S'){
-  contadors = contadors + 1;
-}
-else{
-  contadorn = contadorn + 1;
-}
-if( q3 === 'S'){
-  contadors = contadors + 1;
-}
-else{
-  contadorn = contadorn + 1;
-}
-if( q4 === 'S'){
-  contadors = contadors + 1;
-}
-else{
-  contadorn = contadorn + 1;
-}
-if( q5 === 'S'){
-  contadors = contadors + 1;
-}
-else{
-  contadorn = contadorn + 1;
-}
+// let numero = +prompt ('digite um numero');
+// if (numero < 0) {console.log('o numero e negativo')}
+// else if (numero > 0) {console.log("esse numero e positivo")}
+// else {console.log('digite outro numero ')};
 
-if(contadors === 2){console.log("Voce e suspeito")}
-else if(contadors === 3 ){console.log("Voce é Cumplice")}
-else if(contadors === 4 ){console.log("Voce é Cumplice")}
-else if(contadors === 5 ){console.log("Voce é o culpado")}
-else if(contadors === 1 ){console.log("Voce é inocente")}
-else if(contadors === 0 ){console.log("Voce é inocente")}
+// let sexo = prompt('digite M ou F para o Sexo');
+// if (sexo === 'M'){console.log('Sexo masculino')}
+// else if (sexo === 'm'){console.log('Sexo masculino')}
+// else if (sexo === 'f'){console.log('Sexo Feminino')}
+// else if (sexo === 'F'){console.log('Sexo Feminino')}
+// else{console.log('Digite uma opção valida')}
 
+//var nota = prompt("nota");
+//var float = parseFloat(int).toFixed(2);
+//console.log(nota.toFixed(2));  
+ 
+//let int = +prompt('digite a nota');
+//let nota = parseFloat(int).toFixed(2);
+//if(nota < 6.0){console.log('sua nota foi'+ nota + 'Tirou um F')}
+//else if(nota > 6.0){console.log('sua nota foi  '+ nota + ' Tirou um D')}
+//else if(nota < 7.0){console.log('sua nota foi  '+ nota + ' Tirou um D')}
+//else if(nota > 7.0){console.log('sua nota foi  '+ nota + ' Tirou um C')}
+//else if(nota < 8.0){console.log('sua nota foi  '+ nota + ' Tirou um C')}
+//else if(nota > 8.0){console.log('sua nota foi  '+ nota + ' Tirou um B')}
+//else if(nota < 9.0){console.log('sua nota foi  '+ nota + ' Tirou um B')}
+//else if(nota < 10.0){console.log('sua nota foi  '+ nota + ' Tirou um A')}
+//else if(nota > 9.0){console.log('sua nota foi  '+ nota + ' Tirou um A')}
+let nota = +prompt('digite')
+console.log(`sua nota e ${nota}`)
